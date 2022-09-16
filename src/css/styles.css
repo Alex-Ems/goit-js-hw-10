@@ -31,46 +31,43 @@ body {
   outline: none;
 }
 
-.country-info__list {
-  list-style: none;
-  padding-left: 0px;
+
+.country-list{
+  list-style-type: none;
+  padding: 0;
+  gap: 10px;
+
 }
-
-.country-list li {
-  display: flex;
-  padding-bottom: 10px;
-
-  font-size: 22px;
-  font-weight: 500;
-}
-
-.country-list img {
-  margin-right: 10px;
-}
-
-.country-info {
-  margin-left: 50px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.country-info img {
-  margin-right: 10px;
-}
-
-.country-list__item {
+.country-list__item{
   display: flex;
   align-items: center;
-  margin-top: 0;
-  font-size: 20px;
+  margin-left: 50px;
+}
+  .country-list__icon{
+  display: block;
+  margin-right: 10;
 }
 
-.country-info span {
-  font-size: 24px;
-  font-weight: 500;
+.country-list__header{
+  font-size: 18px;
 }
 
-/* li {
-  font-size: 24px;
-  font-weight: 500;
-} */
+.country-info{
+  margin-left: 50px;
+}
+.country-info--wrapper {
+display: flex;
+align-items: center;
+gap: 10px;}
+
+.country-info__header {
+font-size: 24px;
+font-weight: 400;
+margin: 0;
+}
+
+.country-info__list {
+list-style: none;
+padding: 0;
+font-size: 20px;
+}
